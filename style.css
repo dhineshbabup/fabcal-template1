@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+#home {
+    height: 100vh;
+    width: 100vw;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background: #252E30;
+}
+.navbar-lists {
+    display: flex;
+    align-items: center;
+}
+.navbar-lists li {
+    list-style-type: none;
+    margin: 0 20px;
+    color: #ffff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.navbar-lists li:hover {
+    cursor: pointer;
+    color: #4ED388;
+}
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+}
+.logo {
+    font-size: 24px;
+    background: #4C5658;
+    padding: 4px 12px;
+    margin: 0 15px;
+    font-weight: 700;
+    color: #ffff;
+}
+.logo-text {
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffff;
+}
+.logo-text span {
+    color: #4ED388;
+}
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    margin: 25px 0;
+}
+.left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.left h1 {
+    color: #252E30;
+
+}
+.left p {
+    font-size: 18px;
+    margin: 25px 0;
+    color: gray;
+}
+.contact-button {
+    color: #4ED388;
+    border: 2px solid #4ED388;
+    background: none;
+    width: 30%;
+    margin-top: 40px;
+    height: 50px;
+    font-weight: 700;
+}
+.right {
+    width: 40%;
+    margin-top: 50px;
+}
+.right h1 {
+    color: gray;
+    text-transform: uppercase;
+}
+.progress {
+    width: 100%;
+    background: #E9EEF0;
+    height: 35px;
+    margin: 15px 0 30px 0;
+}
+.progresses {
+    background: #4ED388;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    color: #ffff;
+    font-weight: 700;
+    margin: 15px 0 30px 0;
+}
+.progress1, .progress3 {
+    width: 90%;
+}
+.progress2 {
+    width: 80%;
+}
+.progress4 {
+    width: 70%;
+}
